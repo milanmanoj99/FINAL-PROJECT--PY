@@ -6,7 +6,7 @@ This dataset includes a mix of categorical and numerical variables. "Name" and "
 
 import sqlite3
 import pandas as pd
-   in step 01: we updated the python file in the first cell we executed the requirements text file to instal the packages using the the following function: " pip install -r requirements.txt"
+   in step 01: we updated the python file in the first cell we executed the requirements text file to instal the packages using the the following function: " pip install -r requirements.txt".
 
 # Creating a SQLite database connection and cursor
 1- conn = sqlite3.connect("employee_data.db")
