@@ -8,13 +8,13 @@ import sqlite3
 import pandas as pd
 Step 2: Connecting to SQLite Database
 python
-# Create a SQLite database connection
+# Creating a SQLite database connection
 conn = sqlite3.connect("employee_data.db")
 This line establishes a connection to a SQLite database named "employee_data.db". If the database does not exist, it will be created.
 
 Step 3: Creating a Cursor Object
 python
-# Create a cursor object to interact with the database
+# Creating a cursor object 
 cursor = conn.cursor()
 A cursor is a pointer that allows you to interact with the SQLite database. You can execute SQL commands using this cursor.
 
