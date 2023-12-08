@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data</title>
+</head>
+<body>
+    <h1>Employee Data</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Salary</th>
+                <th>Is Married</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+           {% for row in data %}
+        <tr>
+            <td>{{ row['name'] }}</td>
+            <td>{{ row['age'] }}</td>
+            <td>{{ row['salary'] }}</td>
+            <td>{{ row['is married'] }}</td>
+            <td>{{ row['address'] }}</td>
+        </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
